@@ -7,11 +7,11 @@
 ### Data format
 
 ```
-./datasets/score   # 存放的文件，score是数据集的名称
-├─images           # 训练图像，每个文件夹下存放了具体的训练图像
+./datasets/score   # dataset
+├─images           # images
 │  ├─train
 │  └─val
-└─labels           # label，每个文件夹下存放了具体的txt标注文件，格式满足YOLOv5
+└─labels           # label, txt files, YOLOV5 format
     ├─train
     └─val
 ``` 
